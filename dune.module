@@ -7,6 +7,6 @@ Module: duneuro-analytic-solution
 Version: 0.1
 Maintainer: m_hoel20@uni-muenster.de
 # Required build dependencies
-Depends: duneuro
+Depends: duneuro duneuro-py
 # Optional build dependencies
 #Suggests:

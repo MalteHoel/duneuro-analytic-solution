@@ -12,9 +12,9 @@
 # include "config.h"
 #endif
 
-#include <pybind11/pybind11.h>
-#include <pybind11/operators.h>                                           // include for easy binding of +=, *=, etc.
-#include <dune/duneuro-analytic-solution/duneuro-analytic-solution.hh>    // include for analytic MEG solution in sphere models
+#include <dune/python/pybind11/pybind11.h>
+#include <dune/python/pybind11/operators.h>                                           // include for easy binding of +=, *=, etc.
+#include <dune/duneuro-analytic-solution/duneuro-analytic-solution.hh>                // include for analytic MEG solution in sphere models
 #include <dune/common/fvector.hh>
 #include <duneuro/common/dipole.hh>
 #include <iostream>
